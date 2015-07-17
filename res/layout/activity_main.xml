@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.atet.mina.server.activity.MainActivity" >
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建服务端" />
+
+    <Button
+        android:id="@+id/btndisConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭服务端" />
+
+    <EditText
+        android:id="@+id/etSendMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入需要发送的数据" />
+
+    <Button
+        android:id="@+id/btnMsgSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送" />
+
+</LinearLayout>
